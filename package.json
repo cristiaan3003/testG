@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "este es un test para aprender node y npm desde cero",
+  "main": "index.html",
+  "scripts": {
+	 "start":"npm run lite", 
+    "test": "echo \"Error: no test specified\" && exit 1",
+	    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristiaan3003/testG.git"
+  },
+  "author": "Cristian Vizzarri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristiaan3003/testG/issues"
+  },
+  "homepage": "https://github.com/cristiaan3003/testG#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
